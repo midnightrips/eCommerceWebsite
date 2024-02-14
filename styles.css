@@ -1,3 +1,142 @@
-h1 {
-    color: cornflowerblue;
+body {
+    font-family: 'Segoe UI';
+    letter-spacing: 4px;
+    min-height: 100vh;
+}
+
+hr.large {
+    border: none;
+    border-top: 5px solid black;
+}
+
+li {
+    font-size: 12px;
+}
+
+.brandLeft {
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.brandRight {
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraphText {
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+hr.small {
+    border: none;
+    border-top: 2px solid #BF7631;
+}
+
+.hrLarge {
+    border: none;
+    border-top: 5px solid black;
+}
+
+.hrSmall {
+    border: none;
+    border-top: 2px solid #BF7631;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.brand {
+
+}
+
+.whiteText {
+    color: #FFFFFF;
+}
+
+.hero {
+    background: url('assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg') no-repeat fixed;
+    min-height: 15rem;
+    position: relative;
+    min-width: 20rem;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    z-index: -1;
+
+}
+
+.fullPage {
+    height: 100vh;
+    width: 100%;
+}
+
+.introduction {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "top-l top-r" "bot-l bot-r";
+    justify-content: space-between;
+    justify-items: stretch;
+}
+
+.flexboxContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+    gap: 1rem;
+}
+
+.leftText {
+    justify-self: right;
+    grid-area: top-l;
+    display:block;
+}
+
+.rightText {
+    justify-self: right;
+    grid-area: bot-r;
+    text-align: right;
+    display: block;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.learnMore {
+    color: #BF7631;
+    font-size: 14px;
+}
+
+.add-to-cart-button {
+    background-color: #BF7631;
+    color: white;
+    border-color: #BF7631;
 }
